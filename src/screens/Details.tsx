@@ -13,7 +13,8 @@ export function Details() {
   const {orderId} = route.params as routeParams;
   return (
     <VStack flex={1} bg={'gray.700'}>
-        <Header title='Solicitacao' />
+        <Header title='Nova Solicitacao' />
+        
     <Text color={'white'}>{orderId}</Text>
     </VStack>
   );
