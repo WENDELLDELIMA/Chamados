@@ -22,7 +22,7 @@ export function Order({data, ...rest}: props) {
     <Pressable onPress={rest.onPress}>
     <HStack
         bg={'gray.600'}
-        mb={4}
+        mb={5}
         alignItems={'center'}
         justifyContent={'space-between'}
         rounded={'sm'}
